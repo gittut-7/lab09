@@ -2,24 +2,24 @@ Execute command: [
   `which`
   `cmake`
 ]
-[/home/gndavydov/GNDavydov/workspace/projects/lab07]> "which" "cmake"
+[/home/gittut-7/gittut-7/workspace/projects/lab07]> "which" "cmake"
 /usr/bin/cmake
 Execute command: [
   `cmake`
   `--version`
 ]
-[/home/gndavydov/GNDavydov/workspace/projects/lab07]> "cmake" "--version"
+[/home/gittut-7/gittut-7/workspace/projects/lab07]> "cmake" "--version"
 cmake version 3.16.3
 
 CMake suite maintained and supported by Kitware (kitware.com/cmake).
 Execute command: [
   `cmake`
   `-H.`
-  `-B/home/gndavydov/GNDavydov/workspace/projects/lab07/_builds/clang-cxx14`
+  `-B/home/gittut-7/gittut-7/workspace/projects/lab07/_builds/clang-cxx14`
   `-GUnix Makefiles`
-  `-DCMAKE_TOOLCHAIN_FILE=/home/gndavydov/GNDavydov/workspace/projects/lab07/tools/polly/clang-cxx14.cmake`
+  `-DCMAKE_TOOLCHAIN_FILE=/home/gittut-7/gittut-7/workspace/projects/lab07/tools/polly/clang-cxx14.cmake`
 ]
-[/home/gndavydov/GNDavydov/workspace/projects/lab07]> "cmake" "-H." "-B/home/gndavydov/GNDavydov/workspace/projects/lab07/_builds/clang-cxx14" "-GUnix Makefiles" "-DCMAKE_TOOLCHAIN_FILE=/home/gndavydov/GNDavydov/workspace/projects/lab07/tools/polly/clang-cxx14.cmake"
+[/home/gittut-7/gittut-7/workspace/projects/lab07]> "cmake" "-H." "-B/home/gittut-7/gittut-7/workspace/projects/lab07/_builds/clang-cxx14" "-GUnix Makefiles" "-DCMAKE_TOOLCHAIN_FILE=/home/gittut-7/gittut-7/workspace/projects/lab07/tools/polly/clang-cxx14.cmake"
 -- [polly] Used toolchain: clang / c++14 support
 
 clang not found
